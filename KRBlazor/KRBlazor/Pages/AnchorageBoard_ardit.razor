@@ -1,0 +1,157 @@
+﻿@using Domain
+@using Domain.Entities
+@inject Domain.Interface.IAnchorageState State
+@inject IJSRuntime JS
+
+<div class="board dropzone"
+     id="anchorage-board"
+     style="@($"grid-template-columns: repeat({State.Grid.Width}, 20px); grid-template-rows: repeat({State.Grid.Height}, 20px);")"
+     @onpointermove="OnMove"
+     @onpointerup="OnUp">
+
+    @for (var r = 0; r < State.Grid.Height * State.Grid.Width; r++)
+    {
+        <div class="cell"></div>
+    }
+
+    @foreach (var s in State.Placed)
+    {
+        var left = s.X * Scale;
+        var top = s.Y * Scale;
+        var w = s.Width * Scale;
+        var h = s.Height * Scale;
+
+        <div class="ship @(s.Id == _dragId ? "dragging" : "")"
+             style="@($"left:{left}px; top:{top}px; width:{w}px; height:{h}px; display:flex; align-items:center; justify-content:center;")"
+             @onpointerdown="(e) => OnDown(e, s.Id)"
+             @ondblclick="() => Rotate(s.Id)">
+
+            <svg viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" width="90%" height="80%">
+                <ellipse cx="60" cy="52" rx="50" ry="5" fill="rgba(59,130,246,0.25)" />
+                <path d="M10 35 Q60 55 110 35 L100 25 H20 Z" fill="url(#hullGrad)" stroke="#1e3a8a" stroke-width="1.5" />
+                <rect x="45" y="15" width="30" height="10" rx="2" ry="2" fill="#2563eb" />
+                <rect x="55" y="8" width="10" height="7" fill="#1d4ed8" />
+                @for (int i = 0; i < 5; i++)
+                {
+                    <circle cx="@((35 + i * 10))" cy="30" r="2.5" fill="#fff" />
+                }
+                <defs>
+                    <linearGradient id="hullGrad" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="#3b82f6" />
+                        <stop offset="100%" stop-color="#1d4ed8" />
+                    </linearGradient>
+                </defs>
+            </svg>
+
+        </div>
+    }
+</div>
+
+@code {
+    const int Scale = 20;
+
+    Guid? _dragId;
+    (double dx, double dy) _offset;
+
+    DotNetObjectReference<AnchorageBoard>? _objRef;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _objRef = DotNetObjectReference.Create(this);
+            try
+            {
+                await JS.InvokeVoidAsync("dragModule.enableDrop", _objRef);
+            }
+            catch (JSException ex)
+            {
+                Console.WriteLine("JS Exception: " + ex.Message);
+            }
+        }
+    }
+
+    [JSInvokable]
+    public Task OnDrop(string info, int x, int y)
+    {
+        try
+        {
+            var parts = info.Split('|');
+
+            // info format: "Designation|Width|Height"
+            string designation = parts[0];
+            int w = int.Parse(parts[1]);
+            int h = int.Parse(parts[2]);
+
+            Guid id = Guid.NewGuid();
+
+            var ship = new PlacedShip
+            {
+                Id = id,
+                Designation = designation,
+                X = x,
+                Y = y,
+                Width = w,
+                Height = h
+            };
+
+            State.TryAdd(ship);
+
+            InvokeAsync(StateHasChanged);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"OnDrop exception: {ex}");
+        }
+
+        return Task.CompletedTask;
+    }
+
+    public void Dispose()
+    {
+        _objRef?.Dispose();
+        State.OnChange -= StateHasChanged;
+    }
+
+    protected override void OnInitialized()
+        => State.OnChange += StateHasChanged;
+
+    void OnDown(PointerEventArgs e, Guid id)
+    {
+        _dragId = id;
+        var s = State.Placed.First(p => p.Id == id);
+
+        _offset = (e.ClientX - s.X * Scale, e.ClientY - s.Y * Scale);
+    }
+
+    void OnMove(PointerEventArgs e)
+    {
+        if (_dragId is null) return;
+
+        var s = State.Placed.First(p => p.Id == _dragId);
+
+        var gx = (int)Math.Round((e.ClientX - _offset.dx) / Scale);
+        var gy = (int)Math.Round((e.ClientY - _offset.dy) / Scale);
+
+        // Clamp inside grid
+        gx = Math.Max(0, Math.Min(gx, State.Grid.Width - s.Width));
+        gy = Math.Max(0, Math.Min(gy, State.Grid.Height - s.Height));
+
+        if (State.TryMove(s.Id, gx, gy))
+            StateHasChanged();
+    }
+
+    void OnUp(PointerEventArgs _) => _dragId = null;
+
+    void Rotate(Guid id)
+    {
+        if (State.TryRotate(id))
+            StateHasChanged();
+    }
+
+    void Remove(Guid id)
+    {
+        State.Remove(id);
+        StateHasChanged();
+    }
+}

@@ -1,0 +1,67 @@
+﻿@using Domain.Interface
+@inject IAnchorageState State
+@inject IJSRuntime JS
+
+<div class="palette">
+    <div class="palette-grid">
+        @foreach (var spec in State.Specs)
+        {
+            var placed = State.Placed.Count(p => p.Designation == spec.Designation);
+            var remaining = spec.Count - placed;
+
+            for (var i = 0; i < remaining; i++)
+            {
+                var width = spec.Width * Scale;
+                var height = spec.Height * Scale;
+
+                <div class="palette-item"
+                     draggable="true"
+                     data-drag-info="@($"{spec.Designation}|{spec.Width}|{spec.Height}")"
+                     style="@($"width:{width}px; height:{height}px; display:flex; align-items:center; justify-content:center; ")">
+
+                    <svg viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" width="90%" height="80%">
+                        <ellipse cx="60" cy="52" rx="50" ry="5" fill="rgba(59,130,246,0.25)" />
+                        <path d="M10 35 Q60 55 110 35 L100 25 H20 Z" fill="url(#hullGrad)" stroke="#1e3a8a" stroke-width="1.5" />
+                        <rect x="45" y="15" width="30" height="10" rx="2" ry="2" fill="#2563eb" />
+                        <rect x="55" y="8" width="10" height="7" fill="#1d4ed8" />
+                        <circle cx="35" cy="30" r="2.5" fill="#fff" />
+                        <circle cx="45" cy="30" r="2.5" fill="#fff" />
+                        <circle cx="55" cy="30" r="2.5" fill="#fff" />
+                        <circle cx="65" cy="30" r="2.5" fill="#fff" />
+                        <circle cx="75" cy="30" r="2.5" fill="#fff" />
+                        <defs>
+                            <linearGradient id="hullGrad" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="#3b82f6" />
+                                <stop offset="100%" stop-color="#1d4ed8" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+                </div>
+            }
+        }
+    </div>
+
+
+</div>
+
+@code {
+    const int Scale = 20;
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+            await JS.InvokeVoidAsync("dragHelpers.enableDrag");
+    }
+
+    protected override void OnInitialized()
+    {
+        State.OnChange += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        State.OnChange -= StateHasChanged;
+    }
+}
