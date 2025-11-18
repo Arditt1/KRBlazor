@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80643783-E164-4109-A984-A1B44FE7D10D}|Infrastructure\\Infrastructure.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\infrastructure\\services\\fleetapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80643783-E164-4109-A984-A1B44FE7D10D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\fleetapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\krblazor\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|solutionrelative:krblazor\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80643783-E164-4109-A984-A1B44FE7D10D}|Infrastructure\\Infrastructure.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\infrastructure\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80643783-E164-4109-A984-A1B44FE7D10D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\krblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|solutionrelative:krblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\krblazor\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|solutionrelative:krblazor\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\krblazor\\pages\\shippalette.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|solutionrelative:krblazor\\pages\\shippalette.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\krblazor\\pages\\anchorageboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|solutionrelative:krblazor\\pages\\anchorageboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\krblazor\\wwwroot\\js\\draghelpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|solutionrelative:krblazor\\wwwroot\\js\\draghelpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80643783-E164-4109-A984-A1B44FE7D10D}|Infrastructure\\Infrastructure.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\infrastructure\\services\\anchoragestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80643783-E164-4109-A984-A1B44FE7D10D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\anchoragestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\krblazor\\pages\\anchorageboard.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|solutionrelative:krblazor\\pages\\anchorageboard.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\krblazor\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|solutionrelative:krblazor\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\krblazor\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|solutionrelative:krblazor\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7178007-143F-4316-BCAF-12CB1DBFFCBA}|Domain\\Domain.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\domain\\entities\\placedship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7178007-143F-4316-BCAF-12CB1DBFFCBA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\placedship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7178007-143F-4316-BCAF-12CB1DBFFCBA}|Domain\\Domain.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\domain\\entities\\shipspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7178007-143F-4316-BCAF-12CB1DBFFCBA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\shipspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6058AC19-133A-4E50-AF19-08CF48CFC089}|Application\\Application.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\application\\dto\\dimensiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6058AC19-133A-4E50-AF19-08CF48CFC089}|Application\\Application.csproj|solutionrelative:application\\dto\\dimensiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|c:\\users\\ardit\\desktop\\ardit\\kr\\krblazor\\krblazor\\krblazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{447390C4-4645-40FD-8126-B3E385B8B47D}|KRBlazor\\KRBlazor.csproj|solutionrelative:krblazor\\krblazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.307\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DimensionDto.cs",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\Application\\DTO\\DimensionDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\DimensionDto.cs",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\Application\\DTO\\DimensionDto.cs",
+              "RelativeToolTip": "Application\\DTO\\DimensionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T08:46:04.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FleetApi.cs",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\Infrastructure\\Services\\FleetApi.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\FleetApi.cs",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\Infrastructure\\Services\\FleetApi.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\FleetApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T08:43:53.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Program.cs",
+              "RelativeDocumentMoniker": "KRBlazor\\Program.cs",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Program.cs",
+              "RelativeToolTip": "KRBlazor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T15:51:00.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShipPalette.razor",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\ShipPalette.razor",
+              "RelativeDocumentMoniker": "KRBlazor\\Pages\\ShipPalette.razor",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\ShipPalette.razor",
+              "RelativeToolTip": "KRBlazor\\Pages\\ShipPalette.razor",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAtwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T15:45:31.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dragHelpers.js",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\wwwroot\\js\\dragHelpers.js",
+              "RelativeDocumentMoniker": "KRBlazor\\wwwroot\\js\\dragHelpers.js",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\wwwroot\\js\\dragHelpers.js",
+              "RelativeToolTip": "KRBlazor\\wwwroot\\js\\dragHelpers.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-17T15:45:15.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "KRBlazor\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "KRBlazor\\Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T15:48:50.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InfrastructureServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\Infrastructure\\InfrastructureServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\InfrastructureServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\Infrastructure\\InfrastructureServiceRegistration.cs",
+              "RelativeToolTip": "Infrastructure\\InfrastructureServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T15:44:55.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "KRBlazor\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\Home.razor",
+              "RelativeToolTip": "KRBlazor\\Pages\\Home.razor",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwFYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T08:48:20.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnchorageBoard.razor",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\AnchorageBoard.razor",
+              "RelativeDocumentMoniker": "KRBlazor\\Pages\\AnchorageBoard.razor",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\AnchorageBoard.razor",
+              "RelativeToolTip": "KRBlazor\\Pages\\AnchorageBoard.razor",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAtwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T08:47:59.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AnchorageState.cs",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\Infrastructure\\Services\\AnchorageState.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\AnchorageState.cs",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\Infrastructure\\Services\\AnchorageState.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\AnchorageState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T08:46:20.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShipSpecification.cs",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\Domain\\Entities\\ShipSpecification.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ShipSpecification.cs",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\Domain\\Entities\\ShipSpecification.cs",
+              "RelativeToolTip": "Domain\\Entities\\ShipSpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T08:46:14.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlacedShip.cs",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\Domain\\Entities\\PlacedShip.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\PlacedShip.cs",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\Domain\\Entities\\PlacedShip.cs",
+              "RelativeToolTip": "Domain\\Entities\\PlacedShip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T08:46:14.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AnchorageBoard.razor.css",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\AnchorageBoard.razor.css",
+              "RelativeDocumentMoniker": "KRBlazor\\Pages\\AnchorageBoard.razor.css",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\AnchorageBoard.razor.css",
+              "RelativeToolTip": "KRBlazor\\Pages\\AnchorageBoard.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-18T09:08:44.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KRBlazor\\Pages\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "KRBlazor\\Pages\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T08:47:58.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "KRBlazor\\Pages\\FetchData.razor",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\Pages\\FetchData.razor",
+              "RelativeToolTip": "KRBlazor\\Pages\\FetchData.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T08:48:18.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "KRBlazor.csproj",
+              "DocumentMoniker": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\KRBlazor.csproj",
+              "RelativeDocumentMoniker": "KRBlazor\\KRBlazor.csproj",
+              "ToolTip": "C:\\Users\\ardit\\Desktop\\Ardit\\KR\\KRBlazor\\KRBlazor\\KRBlazor.csproj",
+              "RelativeToolTip": "KRBlazor\\KRBlazor.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-17T15:57:00.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.307\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.307\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.307\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.307\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAowNQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-11-17T15:58:34.45Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

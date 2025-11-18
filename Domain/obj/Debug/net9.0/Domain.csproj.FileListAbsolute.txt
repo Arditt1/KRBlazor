@@ -13,3 +13,4 @@ C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\Domain\obj\Debug\net9.0\Domain.dll
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\Domain\obj\Debug\net9.0\refint\Domain.dll
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\Domain\obj\Debug\net9.0\Domain.pdb
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\Domain\obj\Debug\net9.0\ref\Domain.dll
+C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\Domain\obj\Debug\net9.0\Domain.sourcelink.json

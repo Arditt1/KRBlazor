@@ -18,7 +18,6 @@
                      draggable="true"
                      data-drag-info="@($"{spec.Designation}|{spec.Width}|{spec.Height}")"
                      style="@($"width:{width}px; height:{height}px; display:flex; align-items:center; justify-content:center; ")">
-
                     <svg viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" width="90%" height="80%">
                         <ellipse cx="60" cy="52" rx="50" ry="5" fill="rgba(59,130,246,0.25)" />
                         <path d="M10 35 Q60 55 110 35 L100 25 H20 Z" fill="url(#hullGrad)" stroke="#1e3a8a" stroke-width="1.5" />
@@ -36,23 +35,22 @@
                             </linearGradient>
                         </defs>
                     </svg>
-
                 </div>
             }
         }
     </div>
-
-
 </div>
 
 @code {
     const int Scale = 20;
 
-
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
+        {
+            // Initialize drag functionality after the first render
             await JS.InvokeVoidAsync("dragHelpers.enableDrag");
+        }
     }
 
     protected override void OnInitialized()

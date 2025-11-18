@@ -44,19 +44,14 @@
                     </linearGradient>
                 </defs>
             </svg>
-
-
         </div>
-
     }
 </div>
 
-
-
 @code {
-    const int Scale = 20; 
+    const int Scale = 20;
     Guid? _dragId;
-    (double dx, double dy) _offset; 
+    (double dx, double dy) _offset;
     DotNetObjectReference<AnchorageBoard>? _objRef;
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -64,18 +59,22 @@
         if (firstRender)
         {
             _objRef = DotNetObjectReference.Create(this);
-            await JS.InvokeVoidAsync("dragHelpers.initDropZones", _objRef);
+            try
+            {
+                await JS.InvokeVoidAsync("dragHelpers.initDropZones", _objRef); // Initialize drop zones
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"JavaScript interop failed: {ex.Message}");
+            }
         }
     }
-
- 
 
     [JSInvokable]
     public async Task HandleDrop(string info, int x, int y)
     {
         try
         {
-
             var parts = info.Split('|');
             if (parts.Length < 3)
             {
@@ -100,7 +99,6 @@
                 w = int.Parse(parts[1]);
                 h = int.Parse(parts[2]);
             }
-
 
             var existing = State.Placed.FirstOrDefault(s => s.Id == id);
 
@@ -131,8 +129,6 @@
         }
     }
 
-
-
     public void Dispose()
     {
         _objRef?.Dispose();
@@ -146,7 +142,6 @@
     {
         _dragId = id;
         var s = State.Placed.First(p => p.Id == id);
-
         _offset = (e.ClientX - s.X * Scale, e.ClientY - s.Y * Scale);
     }
 

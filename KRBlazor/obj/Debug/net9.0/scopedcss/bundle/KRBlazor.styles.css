@@ -1,55 +1,35 @@
 /* _content/KRBlazor/Pages/AnchorageBoard.razor.rz.scp.css */
-.board[b-ion752so0z] {
+#anchorage-board[b-ion752so0z] {
     display: grid;
     position: relative;
-    border: 2px solid #94a3b8;
-    background: #f8fafc;
-    border-radius: 12px;
-    width: fit-content;
-    user-select: none;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    width: 100%; /* or set a fixed width */
+    height: 100%; /* or set a fixed height */
+    border: 2px solid #ddd; /* Optional: For visualizing the board */
 }
 
 .cell[b-ion752so0z] {
     width: 20px;
     height: 20px;
-    border: 1px solid #e2e8f0;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    transition: background 0.2s;
+    border: 1px solid #ddd; /* Optional: For visualizing grid cells */
 }
-
-    .cell:hover[b-ion752so0z] {
-        background-color: #e0f2fe;
-    }
 
 .ship[b-ion752so0z] {
     position: absolute;
-    background: linear-gradient(145deg, #60a5fa, #3b82f6);
-    border: 2px solid #1d4ed8;
-    border-radius: 6px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-    transition: transform 0.15s ease-in-out, box-shadow 0.2s;
+    background-color: rgba(59,130,246,0.25); /* Example ship color */
+    border: 1px solid #1e3a8a; /* Example ship border color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab; /* Indicate that the element is draggable */
 }
 
-    .ship:hover[b-ion752so0z] {
-        box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-    }
-
     .ship.dragging[b-ion752so0z] {
-        opacity: 0.7;
-        transform: scale(1.05);
+        opacity: 0.5; /* Make it semi-transparent during drag */
     }
 
-    .ship svg[b-ion752so0z],
-    .palette-item svg[b-ion752so0z] {
-        pointer-events: none;
-        transition: transform 0.2s ease;
-    }
-
-    .ship:hover svg[b-ion752so0z],
-    .palette-item:hover svg[b-ion752so0z] {
-        transform: scale(1.05);
+    .ship svg[b-ion752so0z] {
+        width: 90%;
+        height: 80%;
     }
 /* _content/KRBlazor/Pages/Home.razor.rz.scp.css */
 .left-section[b-x11ii8cpc1] {

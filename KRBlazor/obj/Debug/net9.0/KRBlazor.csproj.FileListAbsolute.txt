@@ -40,8 +40,6 @@ C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\5x
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\cbi89ixv4c-8h4oiah9s0.gz
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\uw48vtxs6y-1fpfb6x0uo.gz
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\vb0cbhal1p-61n19gt1b8.gz
-C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\eqgq8qle6c-r422uare2q.gz
-C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\63a0hrhbcn-r422uare2q.gz
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\staticwebassets.development.json
@@ -53,4 +51,7 @@ C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\refint\KRBlaz
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\KRBlazor.pdb
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\KRBlazor.genruntimeconfig.cache
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\ref\KRBlazor.dll
-C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\ao02w3jo5n-h7i2l1f8dt.gz
+C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\KRBlazor.sourcelink.json
+C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\eqgq8qle6c-kvxyvz9hgz.gz
+C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\63a0hrhbcn-kvxyvz9hgz.gz
+C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\ao02w3jo5n-u123m6qac4.gz

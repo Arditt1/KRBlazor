@@ -24,4 +24,8 @@
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+	  <Content Remove="wwwroot\js\dragModule_ardit.js" />
+	</ItemGroup>
+
 </Project>

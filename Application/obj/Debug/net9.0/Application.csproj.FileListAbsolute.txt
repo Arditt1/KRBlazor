@@ -9,3 +9,4 @@ C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\Application\obj\Debug\net9.0\Applicatio
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\Application\obj\Debug\net9.0\refint\Application.dll
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\Application\obj\Debug\net9.0\Application.pdb
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\Application\obj\Debug\net9.0\ref\Application.dll
+C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\Application\obj\Debug\net9.0\Application.sourcelink.json

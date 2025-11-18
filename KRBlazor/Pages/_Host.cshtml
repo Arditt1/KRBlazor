@@ -5,7 +5,10 @@
     Layout = "_Layout";
 }
 
-<component type="typeof(App)" render-mode="ServerPrerendered" />
+<body>
+    <component type="typeof(App)" render-mode="ServerPrerendered" />
+    <script src="/_framework/blazor.server.js"></script>
+    <script src="/js/dragHelpers.js"></script>
+    
 
-<script src="js/dragHelpers.js"></script>
-<script src="_framework/blazor.server.js"></script>
+</body>
