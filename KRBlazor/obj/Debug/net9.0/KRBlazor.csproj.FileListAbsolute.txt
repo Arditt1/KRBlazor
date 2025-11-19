@@ -32,7 +32,6 @@ C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\scopedcss\Sha
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\scopedcss\bundle\KRBlazor.styles.css
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\scopedcss\projectbundle\KRBlazor.bundle.scp.css
-C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\rxiwmw7zh8-bpk8xqwxhs.gz
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\iyj9yo1hxe-8inm30yfxf.gz
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\wmye09tgfd-cmapd0fi15.gz
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\rggw715bs3-wk8x8xm0ah.gz
@@ -54,4 +53,5 @@ C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\ref\KRBlazor.
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\KRBlazor.sourcelink.json
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\eqgq8qle6c-kvxyvz9hgz.gz
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\63a0hrhbcn-kvxyvz9hgz.gz
+C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\rxiwmw7zh8-6gzpyzhau4.gz
 C:\Users\ardit\Desktop\Ardit\KR\KRBlazor\KRBlazor\obj\Debug\net9.0\compressed\ao02w3jo5n-u123m6qac4.gz
